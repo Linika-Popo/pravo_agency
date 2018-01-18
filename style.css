@@ -914,3 +914,143 @@ strong {
     }
 
 }
+
+@media screen and (max-width:640px) {
+    .block1 .main {
+        background: #f5f5f5 url("images/main_bg.png") no-repeat -430px -20px;
+        padding: 10px 50px;
+    }
+
+    .block1 .logo {        
+        background: url("images/logo-medium.png") no-repeat;
+        height: 90px;
+        margin: 0 0 20px;
+    }
+
+    .nav1, .nav2, .nav3 {
+        width: 65%;        
+    }
+
+    .nav a {
+        width: 90%;        
+        line-height: 15px;
+        font-weight: normal;
+    }
+
+    .lang {
+        width: 30%;
+        top: -25px;
+    }
+
+    .descr .h1 {
+        width: 100%;
+        font-size: 22px;
+        line-height: 28px;
+        padding-bottom: 15px;
+    }
+
+    .descr .rect {
+        margin-bottom: 15px;
+    }
+
+    .descr .p {
+        padding-bottom: 15px;
+    }
+
+    .descr .btn1 {
+        margin: 0 0 15px;
+    }
+
+    .title {
+        padding: 25px;
+    }
+
+    .title .p {
+        margin: 0 auto;
+    }
+   
+    .block2 .line1, .block2 .line2 {    
+        width: 100%;    
+        padding: 30px 10px 25px 25px;
+    }
+        
+    .block2 .services1 {
+        width: 100%;
+        padding: 0 0 20px 110px;
+    }
+    
+    .block2 .services2 {
+        width: 100%;
+        padding: 0 0 0 110px;
+    }
+     
+    .services1 .h3::after {        
+        right: -37px;
+        top: 0;        
+    }
+        
+    .services2 .h3::after {        
+        right: -40px;
+        top: 0;        
+    }
+    
+    .line2 .services2 .info {
+        padding-top: 0;
+    }
+    
+    .block3 .review {
+        width: 100%;
+        margin: 0 auto;
+        padding: 25px 50px;
+    }
+
+    .review .rvw {
+        font-size: 15px;
+        width: 60%;
+    }
+
+    .review1::before, .review2::before {
+        top: 0;
+        left: 50px;
+    }
+
+    .review3::before {
+        top: -10px;
+        left: 50px;
+    }
+
+    .review1 .photo, .review2 .photo {        
+        width: 30%;
+        height: 80px;
+    }
+
+    .review1 .photo {
+        background: url("images/user1-medium.png") no-repeat;
+    }
+
+    .review2 .photo {
+        background: url("images/user2-medium.png") no-repeat;
+    }
+
+    .review3 .video::after {
+        left: 150px;
+    }
+
+    .review .name, .review .site {
+        width: 36%;
+    }
+
+    .review3 .name {        
+        top: -120px;
+    }
+
+    .review3 .site {
+        top: -100px;
+        right: -195px;
+    }
+
+    .block3 .load a::before {
+        top: 5px;
+        left: 230px;
+    }    
+}
