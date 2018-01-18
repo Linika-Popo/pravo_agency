@@ -651,7 +651,7 @@ strong {
     padding: 15px 0 25px;
 }
 
-@media screen and (max-width:1129px) {
+@media screen and (max-width: 1129px) {
     .block1 .main {
         background: #f5f5f5 url("images/main_bg.png") no-repeat -135px 0;        
     }
@@ -665,13 +665,13 @@ strong {
     }
 }
 
-@media screen and (max-width:1110px) {
+@media screen and (max-width: 1110px) {
     .block1 .main {
         background: #f5f5f5 url("images/main_bg.png") no-repeat -135px 35px;        
     }
 }
 
-@media screen and (max-width:1079px) {
+@media screen and (max-width: 1079px) {
     .block1 .main {
         background: #f5f5f5 url("images/main_bg.png") no-repeat -185px 60px;        
     }
@@ -709,13 +709,13 @@ strong {
     
 }
 
-@media screen and (max-width:970px) {
+@media screen and (max-width: 970px) {
     .block1 .main {
         background: #f5f5f5 url("images/main_bg.png") no-repeat -250px 60px;        
     }
 }
 
-@media screen and (max-width:959px) {
+@media screen and (max-width: 959px) {
     .block1 .main {
         background: #f5f5f5 url("images/main_bg.png") no-repeat -290px 98px;        
     }
@@ -946,7 +946,7 @@ strong {
 
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width: 640px) {
     .block1 .main {
         background: #f5f5f5 url("images/main_bg.png") no-repeat -430px -20px;
         padding: 10px 50px;
@@ -1084,4 +1084,196 @@ strong {
         top: 5px;
         left: 230px;
     }    
+}
+
+
+@media screen and (max-width: 480px) {
+    .block1 .main {
+        background: #f5f5f5 url("images/main_bg.png") no-repeat -555px 60px;
+        padding: 10px;
+    }
+
+    .block1 .logo {
+        width: 55%;        
+    }
+
+    .block1 .nav {
+        width: 100%;
+    }
+
+    .nav1, .nav2, .nav3 {
+        width: 33%;        
+    }
+
+    .nav a {
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .lang {
+        width: 20%;
+        top: -130px;
+    }
+
+    .block1 .descr {
+        width: 80%;
+    }
+
+    .descr .h1 {
+        width: 100%;
+        font-size: 22px;
+        line-height: 28px;
+        padding-bottom: 15px;
+    }
+
+    .descr .p {
+        font-size: 14px;
+        line-height: 22px;
+        width: 70%;
+    }
+   
+    .block2 .line1, .block2 .line2 {    
+        width: 100%;    
+        padding: 30px 10px 25px 0;
+    }
+        
+    .block2 .services1 {
+        width: 100%;
+        padding: 0 0 20px 80px;
+    }
+    
+    .block2 .services2 {
+        width: 100%;
+        padding: 0 0 0 80px;
+    }
+     
+    .services1 .h3 {
+        font-size: 12px;    
+    }
+    
+    .block3 .review {
+        padding: 25px 20px;
+    }
+
+    .review .rvw {
+        font-size: 13px;
+        line-height: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .review1::before, .review2::before {
+        left: 20px;
+    }
+
+    .review3::before {
+        left: 20px;
+    }
+
+    .review1 .photo, .review2 .photo {        
+        width: 50px;
+        height: 50px;
+        float: left;
+    }
+
+    .review1 .photo {
+        background: url("images/user1.png") no-repeat;
+    }
+
+    .review2 .photo {
+        background: url("images/user2.png") no-repeat;
+    }
+
+    .review3 .video {
+        height: 200px;;
+    }
+
+    .review3 .video::after {
+        left: 140px;
+    }
+
+    .review .name, .review .site {
+        width: 70%;
+        float: left;
+        padding-left: 15px;
+    }
+
+    .review3 .name {        
+        top: 10px;
+        padding-left: 70px;
+    }
+
+    .review3 .site {
+        top: 10px;
+        left: 55px;
+    }
+
+    .review .site::before {
+        left: 52px;
+    }
+
+    .block3 .load a::before {
+        top: 5px;
+        left: 90px;
+    }    
+    
+    .title .rect {
+        margin: 15px 40%;
+    }
+
+    .block4 .form {
+        width: 100%;
+        float: left;
+    }
+
+    .block4 form {
+        margin-bottom: 0;
+    }
+
+    .form .input input {
+        width: 80%;
+        margin: 10px 0 5px 10%;        
+    }
+    
+    .block4 .message {
+        padding: 0 0 0 10%;
+    }
+    
+    .form .msg {
+        width: 89%;
+        height: 220px;
+    }
+
+    .form .msg textarea {        
+        width: 290px;
+        height: 230px;
+    }
+
+    .block4 .check {
+        width: 80%;
+        margin: 20px 0 25px 10%;        
+    }
+    
+    .block4 .form:nth-child(3) {
+        position: unset;
+    }
+
+    .block4 .btn2 {
+        position: relative;
+        top: 30px;
+    }
+
+    .block5 .contacts div:nth-child(1) {
+        padding: 10px;
+    }
+
+    .block5 .contacts div:nth-child(2), .block5 .contacts div:nth-child(3), .block5 .contacts div:nth-child(4) {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .block5 .contacts div:nth-child(6) {
+        padding: 10px 0;
+    }
 }
